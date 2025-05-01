@@ -74,7 +74,7 @@ with st.container():
 #%% LOAD DATA
 # ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-df_raw = pd.read_excel('data/SF_MOBISimulationTool.xlsx')
+df_raw = pd.read_excel('SF_MOBISimulationTool.xlsx')
 #test only on these data
 df = df_raw[(df_raw['Season'] == 2023) & (df_raw['Competition'] == "UEL") & (df_raw['RoundType'] == "R16")]
 
